@@ -9,7 +9,7 @@ protected $numero_carta;
     function __construct($_nome, $_cognome, $_numero_carta) {
         $this->nome = $_nome;
         $this->cognome = $_cognome;
-        $this ->numero_carta;
+        $this ->numero_carta = $_numero_carta;
     }
 public function getNome(){
     return $this-> nome;
